@@ -1,0 +1,36 @@
+<section id="shop-now"></section>
+    <section id="hot-sale"></section>
+    <section id="footer"></section>
+
+
+     x = setInterval(function () {
+    let random = Math.floor(Math.random() * 5);
+    image.src = images[random];
+  }, 100);
+
+
+
+ <div class="col-lg-6 southAmerica-box">
+        <h3>South America</h3>
+        <button class="southAmerica-start btn-success btn btn-lg rounded-pill">Start</button>
+        <button class="southAmerica-stop btn-danger btn btn-lg rounded-pill">Stop</button>
+        <img class="image-4" src="" id="image4" />
+      </div>      
+    </div>
+
+
+
+  const southAmericaFlags = [
+  "southamerica-1.gif",
+  "southamerica-2.gif",
+  "southamerica-3.gif",
+  "southamerica-4.gif",
+  "southamerica-5.gif",
+  "southamerica-6.gif",
+  "southamerica-7.gif",
+  "southamerica-8.gif",
+  "southamerica-9.gif",
+  "southamerica-10.gif",
+  "southamerica-11.gif",
+  "southamerica-12.gif",
+];
